@@ -3,7 +3,6 @@ from django.contrib import admin
 from .models import (
     Choice,
     Course,
-    Enrollment,
     Instructor,
     Learner,
     Lesson,
@@ -51,7 +50,6 @@ admin.site.register(Course, CourseAdmin)
 admin.site.register(Lesson, LessonAdmin)
 admin.site.register(Instructor)
 admin.site.register(Learner)
-admin.site.register(Enrollment)
 admin.site.register(Question, QuestionAdmin)
 admin.site.register(Choice)
 admin.site.register(Submission)
